@@ -1,0 +1,134 @@
+.close-button {
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 0.75em;
+  height: 0.75em;
+  position: relative;
+  border: none;
+  -webkit-border-radius: 1em;
+  border-radius: 1em;
+  font: normal 2em/normal Arial, Helvetica, sans-serif;
+  color: rgba(0,0,0,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: grey;
+  float: right;
+}
+
+.close-button::before {
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 0.45em;
+  height: 0.1em;
+  position: absolute;
+  content: "";
+  top: 0.33em;
+  left: 0.155em;
+  border: none;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: rgba(0,0,0,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: #ffffff;
+  text-shadow: none;
+  -webkit-transform: rotateZ(45deg)   ;
+  transform: rotateZ(45deg)   ;
+}
+
+.close-button::after {
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 0.45em;
+  height: 0.1em;
+  position: absolute;
+  content: "";
+  top: 0.33em;
+  left: 0.155em;
+  border: none;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: rgba(0,0,0,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: #ffffff;
+  text-shadow: none;
+  -webkit-transform: rotateZ(-45deg)   ;
+  transform: rotateZ(-45deg)   ;
+}
+.close-button:hover {
+    background: red;
+}
+
+#minbox {
+    box-shadow: 0 7px 10px rgba(0,0,0,0.30);
+    position: fixed;
+    bottom: 2.5%;
+    left:2.5%;
+    min-width: 10%;
+    max-width: 20%;
+    padding: 1em;
+    text-align: center;
+    background: center;
+    background-color: #ECECEC;
+}
+
+
+
+@font-face {
+    font-family: 'champagne__limousinesregular';
+    src: url('./champagne__limousines-webfont.woff2') format('woff2'),
+         url('./champagne__limousines-webfont.woff') format('woff');
+
+}
+            .txtok {
+                font-family: 'champagne__limousinesregular';
+                font-size: 14px;
+            }
+            
+            #minbox button {
+                background: grey;
+                border: solid 2px;
+                border-color: white;
+                width: 5em;
+                display: block-center;
+                border-radius: .5em;
+                color: white;
+                font-family: helvetica, sans-serif;
+                /*letter-spacing: .25em;*/
+                text-align: center;
+                font-variant: small-caps;
+                font-weight: bold;
+            }
+            #minbox p {
+                padding: 2em;
+            }
+            
+            #minbox .emergency {
+                background:#ff3333;
+            }
+            #minbox .alert {
+                background:#ff7133;
+            }
+            #minbox .critical {
+                background:#ff9633;
+            }
+            #minbox .error {
+                background:#ffc733;
+            }
+            #minbox .warning {
+                background:#ffec33;
+            }
+            #minbox .notice {
+                background:#e0ff33;
+            }
+            #minbox .info {
+                background:#99ff33;
+            }
+            #minbox .debug {
+                background:#33ff93;
+            }
