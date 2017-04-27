@@ -1,6 +1,7 @@
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/62edf390ca324b82b2d3c223e71b7211)](https://www.codacy.com/app/Snub69/minbox?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Snub69/minbox&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/16c5555ee5284f558d27f1dfd3163476)](https://www.codacy.com/app/Snub69/minbox?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Snub69/minbox&amp;utm_campaign=Badge_Grade)
 [![Build Status](https://travis-ci.org/Snub69/minbox.svg?branch=master)](https://travis-ci.org/Snub69/minbox)
 [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)]()
+[![GitHub tag](https://img.shields.io/github/tag/expressjs/express.svg)]()
 
 # minbox
 
