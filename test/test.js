@@ -47,4 +47,3 @@ mocha.describe("minbox",function () {
     });
       
 });
-0
